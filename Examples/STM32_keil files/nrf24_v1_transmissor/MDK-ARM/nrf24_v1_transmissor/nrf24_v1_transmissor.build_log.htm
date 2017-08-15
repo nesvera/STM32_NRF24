@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: D Microsoft, Microsoft, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.20
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DCM.DLL V1.13.7.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.9.0
+ 
+<h2>Project:</h2>
+C:\Users\Nesvera\Documents\STM32 Codes\nrf24_v1_transmissor\MDK-ARM\nrf24_v1_transmissor.uvprojx
+Project File Date:  11/03/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'nrf24_v1_transmissor'
+compiling main.c...
+../Src/main.c(144): warning:  #223-D: function "memset" declared implicitly
+  	memset( &txPackage.text, '\0', sizeof(txPackage.text)); // clean variables
+../Src/main.c: 1 warning, 0 errors
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_it.c...
+assembling startup_stm32f103xb.s...
+compiling stm32f1xx_hal_msp.c...
+compiling nrf24l01.c...
+..\Src\nrf24l01.c(554): warning:  #177-D: variable "teste" was declared but never referenced
+  	uint8_t *teste;
+..\Src\nrf24l01.c(555): warning:  #177-D: variable "text" was declared but never referenced
+  	void *text;
+..\Src\nrf24l01.c(824): warning:  #940-D: missing return statement at end of non-void function "NRF24L01_GetPaLevel"
+  }
+..\Src\nrf24l01.c(834): warning:  #940-D: missing return statement at end of non-void function "NRF24L01_GetDataRate"
+  }
+..\Src\nrf24l01.c(1014): warning:  #940-D: missing return statement at end of non-void function "NRF24L01_GetDynamicPayloadSize"
+  }
+..\Src\nrf24l01.c: 5 warnings, 0 errors
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_spi_ex.c...
+compiling stm32f1xx_hal_spi.c...
+linking...
+Program Size: Code=7812 RO-data=284 RW-data=44 ZI-data=1708  
+"nrf24_v1_transmissor\nrf24_v1_transmissor.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0-Beta4.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Nesvera\Documents\STM32 Codes\nrf24_v1_transmissor\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta4\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+Build Time Elapsed:  00:00:09
+</pre>
+</body>
+</html>

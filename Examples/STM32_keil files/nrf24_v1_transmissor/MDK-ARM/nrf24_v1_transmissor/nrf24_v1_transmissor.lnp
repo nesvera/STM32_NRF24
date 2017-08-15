@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"nrf24_v1_transmissor\system_stm32f1xx.o"
+"nrf24_v1_transmissor\main.o"
+"nrf24_v1_transmissor\stm32f1xx_it.o"
+"nrf24_v1_transmissor\stm32f1xx_hal_msp.o"
+"nrf24_v1_transmissor\nrf24l01.o"
+"nrf24_v1_transmissor\startup_stm32f103xb.o"
+"nrf24_v1_transmissor\stm32f1xx_hal_pwr.o"
+"nrf24_v1_transmissor\stm32f1xx_hal_rcc.o"
+"nrf24_v1_transmissor\stm32f1xx_hal_cortex.o"
+"nrf24_v1_transmissor\stm32f1xx_hal.o"
+"nrf24_v1_transmissor\stm32f1xx_hal_gpio.o"
+"nrf24_v1_transmissor\stm32f1xx_hal_tim_ex.o"
+"nrf24_v1_transmissor\stm32f1xx_hal_tim.o"
+"nrf24_v1_transmissor\stm32f1xx_hal_flash.o"
+"nrf24_v1_transmissor\stm32f1xx_hal_rcc_ex.o"
+"nrf24_v1_transmissor\stm32f1xx_hal_flash_ex.o"
+"nrf24_v1_transmissor\stm32f1xx_hal_dma.o"
+"nrf24_v1_transmissor\stm32f1xx_hal_spi_ex.o"
+"nrf24_v1_transmissor\stm32f1xx_hal_spi.o"
+--library_type=microlib --strict --scatter "nrf24_v1_transmissor\nrf24_v1_transmissor.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "nrf24_v1_transmissor.map" -o nrf24_v1_transmissor\nrf24_v1_transmissor.axf

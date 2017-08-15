@@ -1,0 +1,1 @@
+nrf24_v1_receiver_w_vpc\startup_stm32f103xb.o: startup_stm32f103xb.s
